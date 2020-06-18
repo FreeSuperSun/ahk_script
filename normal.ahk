@@ -59,3 +59,9 @@ CapsLock & l::
         Send {Right}
         return 
     }
+    
+    ; CapsLock + d/x 两种删除
+    
+CapsLock & d:: Send {Delete}
+
+CapsLock & x:: Send {BackSpace}
