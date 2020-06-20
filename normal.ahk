@@ -62,6 +62,6 @@ CapsLock & l::
     
     ; CapsLock + d/x 两种删除
     
-CapsLock & d:: Send {Delete}
+CapsLock & d:: Send {BackSpace}
 
-CapsLock & x:: Send {BackSpace}
+CapsLock & x:: Send {Delete}
